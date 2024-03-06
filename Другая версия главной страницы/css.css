@@ -1,0 +1,167 @@
+html{
+    box-sizing: border-box;
+    height: 100%;
+}
+
+.neon{
+  color: black;
+  font-size: 50px;
+  text-align: center;
+  margin: -200px 10px 0 0;
+}
+
+.neon:hover {
+  color: #fff;
+  text-shadow:
+    0 0 5px #fff,
+    0 0 10px #fff,
+    0 0 20px #fff,
+    0 0 40px #0ff,
+    0 0 80px #0ff,
+    0 0 90px #0ff,
+    0 0 100px #0ff,
+    0 0 150px #0ff;
+}
+
+.end{
+    background: linear-gradient(to bottom, #c0bfbf, #ffffff);
+    background: -webkit-linear-gradient(top, #c0bfbf, #ffffff);
+    padding-left: 53rem;
+}
+
+.endimg{
+    width: 200px;
+}
+
+.container123{
+    background: linear-gradient(to bottom, rgb(8, 8, 8), #616161);
+    background: -webkit-linear-gradient(top, rgb(8, 8, 8), #616161);
+    height: 500px;
+}
+
+
+
+h1 {
+  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.tabl{
+    align-items: center;
+    display: flex;
+    margin: 0 0 0 755px;
+}
+
+
+
+
+*,
+*::after,
+*::before{
+    box-sizing: inherit;
+}
+
+body{
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    /* font-family: sans-serif; */
+    font-size: 16px;
+    line-height: 1.2;
+    height: 100%;
+}
+
+.GGgame{
+    background-attachment: fixed; 
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.button-register > button {
+    padding: 5px 30px;
+    margin-top: 22px;
+    display: flex;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 7px;
+    color: white;
+    transition: all .3s linear;
+    align-items: center;
+  }
+  
+.button-register > button:hover { 
+    background-color: #ffffff;
+    color: rgb(51, 51, 82);
+    display: flex;
+    align-items: center;
+}
+  
+
+.container{
+    width: 100%;
+    max-width: 1500px;
+    margin: 0 auto;
+    height: 100%;
+    padding: 0 15px;
+}
+
+.navbar{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 75px;
+    background: #000;
+}
+
+.navbar_wrap{
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    
+}
+
+.hamb{
+    display: none;
+}
+
+.popup{
+    display: none;
+}
+
+.logo{
+    height: 90px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: flex;
+    text-align: center;
+}
+
+.menu > li > a{
+    text-decoration:  none;
+}
+
+.navbar_wrap .menu{
+    display: flex;
+}
+
+.navbar_wrap .menu > li{
+    display: flex;
+    align-items: stretch;
+}
+
+.navbar_wrap .menu > li > a{
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.navbar_wrap .menu > li > a:hover{
+    color: rgba(255, 255, 255, 1);
+}

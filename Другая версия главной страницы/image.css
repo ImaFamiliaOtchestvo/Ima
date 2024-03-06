@@ -1,0 +1,39 @@
+.pop{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    margin: 0 100px 0 0;
+    border-radius: 20px;
+}
+
+.game{
+    display: flex;
+    align-items: center;
+    padding-left: 23rem;
+    background: linear-gradient(to bottom, #616161, #c0bfbf);
+    background: -webkit-linear-gradient(top, #616161, #c0bfbf);
+}
+
+p{
+    border: 1px solid black;
+    width: 20px;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 0 0 0;
+}
+
+[data-tooltip]::after{
+    content: attr(data-tooltip);
+    position: absolute;
+    background: #303030;
+    padding: 3px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0,3);
+    pointer-events: none;
+    opacity: 0;
+    transition: 1s;
+    color: aliceblue;
+}
+
+[data-tooltip]:hover::after{
+    opacity: 1;
+}
