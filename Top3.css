@@ -1,0 +1,39 @@
+.Top3{
+    transform: rotate(270deg);
+    /* top: 320px; */
+    margin: 350px 0px 0px -110px;
+    position: absolute;
+    font-size: 150px;
+    color: black;
+}
+
+.Top3:hover{
+    color: aliceblue;
+    transition: all .3s linear;
+}
+
+.Top31{
+    left: 30px;
+    top: 120px;
+    width: 100px;
+    position: absolute;
+    font-size: 100px;
+}
+
+.Top31:hover{
+    color: aliceblue;
+    transition: all .3s linear;
+}
+
+.Top32{
+    left: 30px;
+    top: 700px;
+    width: 100px;
+    position: absolute;
+    font-size: 100px;
+}
+
+.Top32:hover{
+    color: aliceblue;
+    transition: all .3s linear;
+}

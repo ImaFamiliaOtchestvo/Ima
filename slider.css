@@ -1,0 +1,62 @@
+.slider-section {
+    /* padding-bottom: 10rem ; */
+    padding-top: 5.45rem;
+    margin: 0 0 0 0;
+    align-items: center;
+    background-color:  rgb(10, 10, 10);
+}
+
+.slider-container {
+    position: relative;
+    overflow: hidden;
+    width: 1580px;
+}
+
+.grid-container {
+    display: flex;
+    width: 1580px; /* Ширина контейнера */
+    transition: all .3s linear;
+    height: 888px;
+  }
+  .grid-item > p {
+    color: hsl(0, 0%, 0%);
+    line-height: 30px;
+  }
+  .grid-item > h3 {
+    padding-bottom: 1rem;
+  }
+  .grid-item {
+    flex: 0 0 100%;
+    display: inline-block; /* Отображение слайдов в строку */
+    width: 1280px; /* Ширина каждого слайда */
+    height: 720px; /* Высота слайдов (замените на свои значения) */ /* Расстояние между слайдами */ /* Выравнивание текста по вертикали (замените на свои значения) */
+    background-color: #f0f0f0; /* Цвет фона слайдов (замените на свои значения) */
+    color: #000000; /* Цвет текста на слайдах (замените на свои значения) */
+  }
+
+
+  .slider-button {
+    cursor: pointer;
+    text-align: center;
+    position: absolute;
+    top: 45%;
+    background-color: rgba(66, 77, 86, 0.747);
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+    line-height: 45px;
+    z-index: 10;
+  }
+
+  .button-prev {
+    left: 20px;
+  }
+
+  .button-next {
+    right: 20px;
+  }
+  
+  .button{
+    position: relative;
+    top: 6px;
+  }
